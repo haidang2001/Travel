@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+.padding-30{
+    padding: 30px;
+}
+.background-color-one{
+    background-color: #ffd205 !important;
+}
+.background-color-two{
+    background-color: #f76570 !important;
+}
+.background-color-three{
+    background-color: #ba71da !important;
+}

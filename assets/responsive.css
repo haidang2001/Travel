@@ -1,0 +1,208 @@
+@media (max-width: 1023px){
+    .hide-on-mobile-tablet{
+        display: none;
+    }
+    .app{
+        overflow: hidden;
+    
+    }
+    .nav__input:checked ~ .nav-menu{
+        display: none;
+    }
+    .slider__type{
+        display: block;
+        width: 100%;
+        text-align: center; 
+    }
+    .slider__item{
+        margin-top: 20px;
+    }
+    .view-destination{
+        height: 0;
+        justify-content: none;
+    }
+
+    .nav-menu-tablet{
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        /* width: 350px; */
+        background-color: #555;
+        overflow-y: auto;
+        display: none;
+    }
+    .nav__input:checked ~ .nav-menu-tablet{
+        display: block;
+    }
+    
+    .nav-menu-tablet-item{
+        list-style: none;
+        font-size: 3rem;
+        padding-top: 50px;
+        font-weight: 700;
+    }
+    .subnav-menu-tablet-item{
+        list-style: none;
+        font-size: 2rem;
+        padding-top: 30px;
+        font-weight: 500;
+
+    }
+    .subsubnav-menu-tablet-item{
+        list-style: none;
+        padding-top: 20px;
+    }
+    .nav-menu-tablet-list{
+        color: #fff;
+        
+        
+    }
+    .app-contentba{
+        flex-direction: column;
+        
+
+    }
+    .contentba-trai{
+        width: 100%;
+
+    }
+    .contentba-phai{
+        width: 100%;
+
+    }
+    .footer__message{
+        margin-top: 20px;
+        /* width: 100%; */
+        /* flex: 1; */
+
+    }
+}
+
+/* mobile */
+@media(max-width: 739px){
+    .hide-on-mobile{
+        display: none;
+    }
+    .red-viewdes{
+        bottom: 0;
+        left: 0;
+    }
+    .nav-menu-tablet{
+        width: 100%;
+    }
+    .header__menu-img{
+       
+        margin-left: 150px;
+    }
+    .slider__title{
+        line-height: 70px;
+        text-align: center;
+    }
+    .info-tour{
+        padding: 30px;
+    }
+    .picture-img{
+        margin-left: 0;
+    }
+    .row.picture-time{
+        left: 0;
+        transform: translateX(0);
+    }
+    .picture-day-time{
+        padding: 16.5px;
+    }
+    .picture-place-place{
+        margin-right: 0;
+    }
+    .footer__title,
+    .footer__message,
+    .picture-place-place{
+        padding: 30px;
+    }
+    .footer__body{
+        text-align: center;
+    }
+    .footer__info-des{
+        margin-right: 0;
+    }
+    .row.footer__copy{
+        flex-direction: column;
+        line-height: 2rem;
+    }
+    .footer__body,
+    .footer__copy{
+        margin: 0 30px;
+    }
+    .footer__send-btn{
+        margin-left: 20px;
+    }
+    .place-info{
+        margin: 30px;
+    }
+    .slider__search{
+        width: 85%;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    .hide-on-tablet{
+        display: none;
+    }
+    .header__menu-img{
+       
+        margin-left: 500px;
+    }
+    .nav-menu-tablet{
+        width: 350px;
+
+    }
+    
+    
+    .picture-img{
+    margin-left: 0px;
+        
+    }
+    .slider__search{
+        width: 85%;
+        
+    }
+    
+    .viewmore-info{
+        margin-bottom: 20px;
+    }
+    .booknow-green{
+        margin-bottom: 20px;
+    }
+    .picture-place-place{
+        margin-bottom: 20px;
+
+    }
+    .footer__title{
+        padding-left: 0;
+    }
+    
+    
+    .picture-time{
+        width: 100%;
+        margin-left: 1px;
+        text-align: center;
+    }
+    .slider__item{
+        margin: 30px 60px;
+    }
+    .red-viewdes{
+        bottom: 0;
+        /* left: 0; */
+    }
+    
+}
+
+/* PC */
+@media(min-width: 1024px){
+    .hide-on-pc{
+        display: none;
+    }
+    
+}
